@@ -3400,7 +3400,7 @@ resource "aws_security_group" "goat_sg" {
 
 # Instance Requirements
 resource "aws_iam_instance_profile" "goat_iam_profile" {
-  name = "AWS_GOAT_ec2_profile"
+  name = "AWS_GOAT_ec2_profile_1"
   role = aws_iam_role.goat_role.name
 }
 resource "aws_iam_role" "goat_role" {
